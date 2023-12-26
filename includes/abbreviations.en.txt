@@ -1,5 +1,5 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
+*[2FA]: Xác thực 2 yếu tố
+*[ADB]: ADB (cầu sử lỗi Android)
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
@@ -40,9 +40,9 @@
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
+*[IP]: Giao thức Internet
+*[IPv4]: IPv4 (giao thức Internet phiên bản 4)
+*[IPv6]: IPv6 (giao thức Internet phiên bản 6)
 *[ISP]: Internet Service Provider
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
@@ -55,14 +55,14 @@
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
+*[NTP]: NTP (giao thức đồng bộ thời gian mạng)
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
+*[OS]: Hệ điều hành
+*[OTP]: OTP (mật khẩu dùng 1 lần)
+*[OTPs]: OTP (mật khẩu dùng 1 lần)
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
