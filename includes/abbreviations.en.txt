@@ -87,7 +87,7 @@
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
 *[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
+*[TOTP]: Mật khẩu dùng một lần dựa trên thời gian
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
