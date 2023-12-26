@@ -10,7 +10,7 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: Hệ thống tên miền
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
@@ -31,10 +31,10 @@
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HDD]: Ổ đĩa cứng
+*[HOTP]: OTP (mật khẩu dùng một lần) dựa trên HMAC (mã xác thực tin nhắn dựa trên hàm băm)
+*[HTTPS]: HTTPS (giao thức truyền tải siêu văn bản an toàn)
+*[HTTP]: HTTP (giao thức truyền tải siêu văn bản)
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
@@ -43,8 +43,8 @@
 *[IP]: Giao thức Internet
 *[IPv4]: IPv4 (giao thức Internet phiên bản 4)
 *[IPv6]: IPv6 (giao thức Internet phiên bản 6)
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[ISP]: Nhà cung cấp dịch vụ Internet
+*[ISPs]: Những nhà cung cấp dịch vụ Internet
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
@@ -64,7 +64,7 @@
 *[OTP]: OTP (mật khẩu dùng 1 lần)
 *[OTPs]: OTP (mật khẩu dùng 1 lần)
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
+*[P2P]: Mạng ngang hàng
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)
@@ -78,22 +78,22 @@
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
+*[SSH]: SSH
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
+*[SSO]: Đăng nhập một lần
+*[TCP]: Giao thức điều khiển truyền dẫn
+*[TEE]: Môi trường thực thi đáng tin cậy
+*[TLS]: Bảo mật tầng giao vận
+*[ToS]: Điều khoản dịch vụ
 *[TOTP]: Mật khẩu dùng một lần dựa trên thời gian
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[VPN]: Mạng riêng ảo
+*[VoIP]: Thoại qua IP (giao thức Internet)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
