@@ -16,15 +16,15 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 </div>
 
-!!! danger "VPNs do not provide anonymity"
+!!! danger "VPN không cung cấp tính năng ẩn danh"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    Sử dụng VPN sẽ **không** giúp trình duyệt web của bạn duy trì ở chế độ ẩn danh, cũng như không tăng thêm tính bảo mật cho lưu lượng truy cập không bảo mật (HTTP).
 
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Nếu bạn đang muốn **ẩn danh**, bạn nên sử dụng Tor Browser **thay vì** VPN.
 
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Nếu bạn muốn tăng cường tính **bảo mật**, bạn phải luôn đảm bảo rằng mình đang kết nối với các trang web sử dụng HTTPS. VPN không phải sự thay thế cho các biện pháp bảo mật.
 
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Câu hỏi về Tor](advanced/tor-overview.md){ .md-button }
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md){ .md-button }
 
