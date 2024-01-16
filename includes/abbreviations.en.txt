@@ -5,22 +5,23 @@
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
+*[CLI]: Giao diện dòng lệnh
+*[CSV]: Giá trị được phân tách bằng dấu phẩy
 *[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
+*[digital legacy feature]: Digital Legacy đề cập đến các tính năng cho phép bạn cấp cho người khác quyền truy cập vào dữ liệu của bạn khi bạn qua đời
+*[tính năng di sản kỹ thuật số]: Di sản kỹ thuật số đề cập đến các tính năng cho phép bạn cấp cho người khác quyền truy cập vào dữ liệu của bạn khi bạn qua đời
+*[DNSSEC]: Tiện ích mở rộng (extension) bảo mật hệ thống tên miền (DNS)
 *[DNS]: Hệ thống tên miền
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
+*[DoH]: DNS qua HTTPS
+*[DoQ]: DNS qua QUIC
+*[DoH3]: DNS qua HTTP/3
+*[DoT]: DNS qua TLS
 *[E2EE]: Mã hóa đầu cuối
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
+*[ECS]: Mạng con máy khách EDNS
+*[EEA]: Khu vực kinh tế châu Âu
+*[entropy]: Phép đo mức độ khó đoán
+*[EOL]: Cuối vòng đời
+*[Exif]: Định dạng tập tin ảnh có thể chuyển đổi
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
@@ -33,8 +34,8 @@
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Ổ đĩa cứng
 *[HOTP]: OTP (mật khẩu dùng một lần) dựa trên HMAC (mã xác thực tin nhắn dựa trên hàm băm)
-*[HTTPS]: HTTPS (giao thức truyền tải siêu văn bản an toàn)
-*[HTTP]: HTTP (giao thức truyền tải siêu văn bản)
+*[HTTPS]: Hypertext Transfer Protocol Security (giao thức truyền tải siêu văn bản an toàn)
+*[HTTP]: Hypertext Transfer Protocol (giao thức truyền tải siêu văn bản)
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
