@@ -1,6 +1,6 @@
 *[2FA]: Xác thực 2 yếu tố
-*[ADB]: ADB (cầu sử lỗi Android)
-*[AOSP]: Android Open Source Project
+*[ADB]: Android debug bridge (cầu gỡ lỗi Android)
+*[AOSP]: Dự án mã nguồn mở Android
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
