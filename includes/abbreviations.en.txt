@@ -15,7 +15,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: Mã hóa đầu cuối
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
@@ -41,8 +41,8 @@
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Giao thức Internet
-*[IPv4]: IPv4 (giao thức Internet phiên bản 4)
-*[IPv6]: IPv6 (giao thức Internet phiên bản 6)
+*[IPv4]: Internet protocol version 4 (giao thức Internet phiên bản 4)
+*[IPv6]: Internet protocol version 6 (giao thức Internet phiên bản 6)
 *[ISP]: Nhà cung cấp dịch vụ Internet
 *[ISPs]: Những nhà cung cấp dịch vụ Internet
 *[JNI]: Java Native Interface
@@ -51,7 +51,7 @@
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MFA]: Xác thực đa yếu tố
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
@@ -61,8 +61,8 @@
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[OS]: Hệ điều hành
-*[OTP]: OTP (mật khẩu dùng 1 lần)
-*[OTPs]: OTP (mật khẩu dùng 1 lần)
+*[OTP]: One-time password (mật khẩu dùng 1 lần)
+*[OTPs]: One-time passwords (mật khẩu dùng 1 lần)
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Mạng ngang hàng
 *[PAM]: Linux Pluggable Authentication Modules
@@ -74,14 +74,14 @@
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[SMS]: Dịch vụ tin nhắn ngắn (tin nhắn văn bản tiêu chuẩn)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
-*[SSH]: SSH
+*[SSH]: Giao thức Shell an toàn
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
+*[SaaS]: Phần mềm dưới dạng dịch vụ (phần mềm đám mây)
+*[SoC]: Hệ thống trên Chip
 *[SSO]: Đăng nhập một lần
 *[TCP]: Giao thức điều khiển truyền dẫn
 *[TEE]: Môi trường thực thi đáng tin cậy
