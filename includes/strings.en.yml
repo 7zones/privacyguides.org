@@ -4,45 +4,45 @@ config:
   description: Privacy Guides is your central privacy and security resource to protect yourself online.
   copyright:
     - 1: |
-        Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+        Hướng dẫn về Quyền riêng tư là một trang web phi lợi nhuận, hoạt động vị cộng đồng, cung cấp thông tin để bảo vệ quyền riêng tư và bảo mật dữ liệu của bạn.
     - 2: |
-        We do not make money from recommending certain products, and we do not use affiliate links.
+        Chúng tôi không kiếm tiền từ việc giới thiệu một số sản phẩm nhất định và chúng tôi không sử dụng các affiliate link.
     - 3: |
-        Privacy Guides and contributors.
+        Hướng dẫn về Quyền riêng tư và người đóng góp
     - 4: |
-        Content licensed under CC BY-ND 4.0.
+        Nội dung được cấp phép dưới giấy phép CC BY-ND 4.0.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: Trang này có hữu ích với bạn không?
+    yes: Trang này hữu ích
+    yes-note: Cảm ơn phản hồi của bạn!
+    no: Trang này có thể cải thiện thêm
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Cảm ơn phản hồi của bạn! Hãy giúp chúng tôi cải thiện trang này bằng cách mở một cuộc thảo luận trên diễn đàn của chúng tôi.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Chuyển sang chế độ tối
+    light: Chuyển sang chế độ sáng
+    system: Chuyển sang chủ đề hệ thống
 
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
-  Software: Software
-  Advanced: Advanced
-  About: About
-  Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
+  Home: Trang chủ
+  Knowledge Base: Kiến thức cơ bản
+  Technology Essentials: Công nghệ thiết yếu
+  Operating Systems: Hệ điều hành
+  Advanced Topics: Chủ đề nâng cao
+  Recommendations: Khuyến nghị
+  Internet Browsing: Trình duyệt
+  Providers: Nhà cung cấp
+  Software: Phần mềm
+  Advanced: Nâng cao
+  About: Về
+  Community: Cộng đồng
+  Online Services: Dịch vụ trực tuyến
+  Code of Conduct: Quy tắc ứng xử
+  Contributing: Đóng góp
+  Writing Guide: Hướng dẫn viết
+  Technical Guides: Hướng dẫn kỹ thuật
   Changelog: Changelog
-  Forum: Forum
+  Forum: Diễn đàn
   Blog: Blog
 
 site:
