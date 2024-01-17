@@ -30,7 +30,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 ## Nhà cung cấp được đề xuất
 
-Những nhà cung cấp mà chúng tôi đề xuất đều sử dụng mã hóa, chấp nhận Monero, hỗ trợ WireGuard & OpenVPN, và không có chính sách ghi nhật ký. Đọc [danh sách tiêu chí đầy đủ](#criteria) của chúng tôi để biết thêm thông tin.
+Những nhà cung cấp mà chúng tôi đề xuất đều sử dụng mã hóa, chấp nhận Monero, hỗ trợ WireGuard & OpenVPN, và không có chính sách ghi nhật ký (log). Đọc [danh sách tiêu chí đầy đủ](#criteria) của chúng tôi để biết thêm thông tin.
 
 ### Proton VPN
 
@@ -72,7 +72,7 @@ Proton VPN cung cấp mã nguồn cho máy khách (bao gồm máy để bàn và
 
 #### :material-check:{ .pg-green } Chấp nhận tiền mặt
 
-Ngoài việc chấp nhận thanh toán bằng thẻ tín dụng/thẻ ghi nợ, PayPal, và [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN còn chấp nhận **tiền mặt/tiền địa phương** dưới dạng biểu mẫu thanh toán ẩn danh.
+Ngoài việc chấp nhận thanh toán bằng thẻ tín dụng/thẻ ghi nợ, PayPal, và [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN còn chấp nhận **tiền mặt/nội tệ** dưới hình thức thanh toán ẩn danh.
 
 #### :material-check:{ .pg-green } Hỗ trợ WireGuard
 
@@ -88,13 +88,13 @@ Proton VPN hiện chỉ hỗ trợ [chuyển tiếp cổng](https://protonvpn.co
 
 Proton VPN có giao thức [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) giúp ích cho các trường hợp mà giao thức VPN như OpenVPN hoặc Wireguard bị chặn. Tính năng stealth (tàng hình) hoạt động bằng cách sử dụng TLS tunnel over TCP khiến nó khó bị chặn hơn ngay cả khi phân tích sâu các gói (DPI).
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Ứng dụng di động
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+Ngoài việc cung cấp các tệp cấu hình OpenVPN tiêu chuẩn, Proton VPN còn có ứng dụng di động cho [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), và [GitHub](https://github.com/ProtonVPN/android-app/releases) cho phép dễ dàng kết nối với máy chủ của họ.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Tính năng bổ sung
 
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+Ứng dụng máy khách của Proton VPN hiện hỗ trợ xác thực 2 yếu tố trên tất cả các nền tảng ngoại trừ Linux. Proton VPN có máy chủ và trung tâm dữ liệu riêng ở Thụy Sĩ, Iceland và Thụy Điển. Họ cung cấp dịch vụ DNS có tính năng chặn những nội dung và phần mềm độc hại đã biết. Ngoài ra, Proton VPN cũng cung cấp máy chủ "Tor" cho phép bạn dễ dàng kết nối với các trang web [onion](https://vi.wikipedia.org/wiki/.onion), những chúng tôi vẫn thực sự khuyên bạn nên sử dụng [trình duyệt Tor chính thức](https://www.torproject.org/) cho mục đích này.
 
 #### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
 
@@ -106,9 +106,9 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
+    **IVPN** là một nhà cung cấp VPN cao cấp khác, và họ đã hoạt động từ năm 2009. IVPN có trụ sở tại Gibraltar.
 
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
@@ -122,38 +122,38 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37 Quốc gia
 
-IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+IVPN có [máy chủ ở 37 quốc gia](https://www.ivpn.net/server-locations).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
 { .annotate }
 
 1. Last checked: 2023-12-21
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (private key) của nhà cung cấp VPN nếu họ sử dụng [máy chủ chuyên dụng](https://en.wikipedia.org/wiki/Dedicated_hosting_service), thay vì các giải pháp rẻ hơn như [máy chủ ảo](https://vi.wikipedia.org/wiki/Máy_chủ_ảo).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Kiểm tra độc lập
 
-IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN đã trải qua cuộc [kiểm tra không ghi log từ Cure53](https://cure53.de/audit-report_ivpn.pdf) với kết luận được đưa ra là đồng ý với tuyên bố không ghi log của IVPN. IVPN cũng đã hoàn thành [báo cáo kiểm tra toàn diện Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) vào tháng 1 năm 2020. IVPN cũng cho biết họ dự định có [báo cáo thường niên](https://www.ivpn.net/blog/independent-security-audit-concluded) trong tương lai. Một đánh giá sâu hơn đã được tiến hành [vào tháng 4 năm 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) và được tiến hành bởi Cure53 [trên trang web của họ](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Mã nguồn mở cho client
 
-As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+Kể từ tháng 2 năm 2020, [tất cả các ứng dụng của IVPN đều là mã nguồn mở](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Bạn có thể lấy mã nguồn từ [GitHub](https://github.com/ivpn) của họ.
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Chấp nhận tiền mặt và Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+Ngoài việc chấp nhận thẻ tín dụng/thẻ ghi nợ và PayPal, IVPN còn chấp nhận Bitcoin, **Monero** và **tiền mặt/nội tệ** (với gói năm) dưới dạng hình thức thanh toán ẩn danh.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Hỗ trợ WireGuard
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+IVPN hỗ trợ giao thức WireGuard®. [WireGuard](https://www.wireguard.com) [WireGuard](https://www.wireguard.com) là một giao thức mới sử dụng [mật mã học](https://www.wireguard.com/protocol/) tiên tiến nhất. Ngoài ra, WireGuard hướng tới mục tiêu đơn giản hơn và hiệu quả hơn.
 
-IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+IVPN [khuyến nghị](https://www.ivpn.net/wireguard/) sử dụng WireGuard với dịch vụ của họ, và do đó giao thức này là mặc định trên tất cả các ứng dụng của IVPN. cũng cung cấp trình tạo cấu hình WireGuard để sử dụng với [ứng dụng](https://www.wireguard.com/install/) WireGuard chính thức.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Chuyển tiếp cổng từ xa
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đã loại bỏ tùy chọn này vào [tháng 6 năm 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Việc thiếu tính năng này có thể tác động tiêu cực đến một số ứng dụng nhất định, đặc biệt là các ứng dụng ngang hàng như  torrent client.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
 IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
@@ -190,14 +190,14 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 #### :material-check:{ .pg-green } 40 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
 { .annotate }
 
 1. Last checked: 2023-12-21
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (private key) của nhà cung cấp VPN nếu họ sử dụng [máy chủ chuyên dụng](https://en.wikipedia.org/wiki/Dedicated_hosting_service), thay vì các giải pháp rẻ hơn như [máy chủ ảo](https://vi.wikipedia.org/wiki/Máy_chủ_ảo).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Kiểm tra độc lập
 
 Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
 
@@ -209,29 +209,29 @@ In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/result
 
 In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Mã nguồn mở cho client
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Chấp nhận tiền mặt và Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+Mullvad, Ngoài việc chấp nhận thẻ tín dụng/thẻ ghi nợ và PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **tiền mặt/nội tệ** dưới dạng hình thức thanh toán ẩn danh. They also accept Swish and bank wire transfers.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Hỗ trợ WireGuard
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+Mullvad hỗ trợ giao thức WireGuard®. [WireGuard](https://www.wireguard.com) [WireGuard](https://www.wireguard.com) là một giao thức mới sử dụng [mật mã học](https://www.wireguard.com/protocol/) tiên tiến nhất. Ngoài ra, WireGuard hướng tới mục tiêu đơn giản hơn và hiệu quả hơn.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Mullvad [khuyến nghị](https://mullvad.net/en/help/why-wireguard/) sử dụng WireGuard với dịch vụ của họ. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
 #### :material-check:{ .pg-green } IPv6 Support
 
 Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Chuyển tiếp cổng từ xa
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
 Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
@@ -268,7 +268,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Easy-to-use VPN clients
 - Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Capability of [Chuyển tiếp cổng từ xa](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
 
 ### Privacy
 
