@@ -26,11 +26,11 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Câu hỏi về Tor](advanced/tor-overview.md){ .md-button }
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md){ .md-button }
+[Tổng quan chi tiết về VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md){ .md-button }
 
-## Recommended Providers
+## Nhà cung cấp được đề xuất
 
-Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+Những nhà cung cấp mà chúng tôi đề xuất đều sử dụng mã hóa, chấp nhận Monero, hỗ trợ WireGuard & OpenVPN, và không có chính sách ghi nhật ký. Đọc [danh sách tiêu chí đầy đủ](#criteria) của chúng tôi để biết thêm thông tin.
 
 ### Proton VPN
 
@@ -38,9 +38,9 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
 
     ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
-    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+    **Proton VPN** là một đơn vị cạnh tranh mạnh trong lĩnh vực VPN đã đi vào hoạt động từ năm 2016. Proton AG có trụ sở tại Thụy Sĩ và cung cấp những dịch vụ miễn phí có giới hạn cũng như tùy chọn cao cấp nhiều tính năng hơn.
 
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
@@ -53,16 +53,16 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 71 Countries
+#### :material-check:{ .pg-green } 71 Quốc gia
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN có [máy chủ ở 71 quốc gia](https://protonvpn.com/vpn-servers) [hoặc 3 nếu bạn sử dụng gói miễn phí](https://protonvpn.com/free-vpn).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
 { .annotate }
 
 1. Last checked: 2023-12-21
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (private key) của nhà cung cấp VPN nếu họ sử dụng [máy chủ chuyên dụng](https://en.wikipedia.org/wiki/Dedicated_hosting_service), thay vì các giải pháp rẻ hơn như [máy chủ ảo](https://vi.wikipedia.org/wiki/Máy_chủ_ảo).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Kiểm toán độc lập
 
 As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
