@@ -62,31 +62,31 @@ Proton VPN có [máy chủ ở 71 quốc gia](https://protonvpn.com/vpn-servers)
 
 Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (private key) của nhà cung cấp VPN nếu họ sử dụng [máy chủ chuyên dụng](https://en.wikipedia.org/wiki/Dedicated_hosting_service), thay vì các giải pháp rẻ hơn như [máy chủ ảo](https://vi.wikipedia.org/wiki/Máy_chủ_ảo).
 
-#### :material-check:{ .pg-green } Kiểm toán độc lập
+#### :material-check:{ .pg-green } Kiểm tra độc lập
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Kể từ tháng 1 năm 2020, Proton VPN đã trải qua cuộc kiểm tra độc lập được thực hiện bởi SEC Consult. SEC Consult đã tìm thấy một số lỗ hổng có mức rủi ro trung bình và thấp trong các ứng dụng Windows, Android, và iOS, tất cả đều được Proton VPN "sửa đúng cách" trước khi báo cáo được công bố. Không phát hiện được bất kỳ lỗ hổng nào cho phép kẻ tấn công có quyền truy cập vào thiết bị hoặc lưu lượng truy cập của bạn từ xa. Bạn có thể xem các báo cáo riêng lẻ cho từng nền tảng tại [protonvpn.com](https://protonvpn.com/blog/open-source/). Vào tháng 4 năm 2022, Proton VPN đã trải qua [một đợt kiểm tra khác](https://protonvpn.com/blog/no-logs-audit/) và báo cáo được [thực hiện bởi Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [Securitum](https://research.securitum.com) đã cấp cho ứng dụng của Proton VPN một [thư chứng thực](https://proton.me/blog/security-audit-all-proton-apps) vào ngày 9 tháng 11 năm 2021.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Mã nguồn mở cho máy khách
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN cung cấp mã nguồn cho máy khách (bao gồm máy để bàn và di động) tại [GitHub](https://github.com/ProtonVPN) của họ.
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } Chấp nhận tiền mặt
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Ngoài việc chấp nhận thanh toán bằng thẻ tín dụng/thẻ ghi nợ, PayPal, và [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN còn chấp nhận **tiền mặt/tiền địa phương** dưới dạng biểu mẫu thanh toán ẩn danh.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Hỗ trợ WireGuard
 
-Proton VPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+Proton VPN chủ yếu hỗ trợ giao thức WireGuard®. [WireGuard](https://www.wireguard.com) là một giao thức mới sử dụng [mật mã học](https://www.wireguard.com/protocol/) tiên tiến nhất. Ngoài ra, WireGuard hướng tới mục tiêu đơn giản hơn và hiệu quả hơn.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+Proton VPN [khuyến nghị](https://protonvpn.com/blog/wireguard/) sử dụng WireGuard cùng với dịch vụ của họ. Trên các ứng dụng Windows, macOS, iOS, Android, ChromeOS, và Android TV của Proton VPN, WireGuard là giao thức mặc định; tuy nhiên, ứng dụng Linux của họ không [hỗ trợ](https://protonvpn.com/support/how-to-change-vpn-protocols/) giao thức này.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Chuyển tiếp cổng từ xa
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPN hiện chỉ hỗ trợ [chuyển tiếp cổng](https://protonvpn.com/support/port-forwarding/) từ xa tạm thời qua NAT-PMP, với thời gian thuê chỉ 60 giây. Ứng dụng Windows có sẵn tùy chọn giúp bạn dễ dàng thực hiện được điều này, tuy nhiên với các hệ điều hành khác, bạn sẽ cần chạy [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/) của riêng mình. Các ứng dụng torrent thường hỗ trợ NAT-PMP nguyên bản.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN có giao thức [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) giúp ích cho các trường hợp mà giao thức VPN như OpenVPN hoặc Wireguard bị chặn. Tính năng stealth (tàng hình) hoạt động bằng cách sử dụng TLS tunnel over TCP khiến nó khó bị chặn hơn ngay cả khi phân tích sâu các gói (DPI).
 
 #### :material-check:{ .pg-green } Mobile Clients
 
