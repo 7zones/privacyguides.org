@@ -151,7 +151,7 @@ IVPN [khuyến nghị](https://www.ivpn.net/wireguard/) sử dụng WireGuard v�
 
 #### :material-alert-outline:{ .pg-orange } Chuyển tiếp cổng từ xa
 
-IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đã loại bỏ tùy chọn này vào [tháng 6 năm 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Việc thiếu tính năng này có thể tác động tiêu cực đến một số ứng dụng nhất định, đặc biệt là các ứng dụng ngang hàng như  torrent client.
+IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đã loại bỏ tùy chọn này vào [tháng 6 năm 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Việc thiếu tính năng này có thể tác động tiêu cực đến một số ứng dụng nhất định, đặc biệt là các ứng dụng ngang hàng như torrent client.
 
 #### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
@@ -190,7 +190,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 #### :material-check:{ .pg-green } 40 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
+Mullvad có [máy chủ ở 40 quốc gia](https://mullvad.net/servers/).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
 { .annotate }
 
 1. Last checked: 2023-12-21
@@ -211,11 +211,11 @@ In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021
 
 #### :material-check:{ .pg-green } Mã nguồn mở cho client
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Mullvad cung cấp mã nguồn cho máy khách (bao gồm máy để bàn và di động) tại [GitHub](https://github.com/mullvad/mullvadvpn-app) của họ.
 
 #### :material-check:{ .pg-green } Chấp nhận tiền mặt và Monero
 
-Mullvad, Ngoài việc chấp nhận thẻ tín dụng/thẻ ghi nợ và PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **tiền mặt/nội tệ** dưới dạng hình thức thanh toán ẩn danh. They also accept Swish and bank wire transfers.
+Ngoài việc chấp nhận thẻ tín dụng/thẻ ghi nợ và PayPal, Mullvad còn chấp nhận Bitcoin, Bitcoin tiền mặt, **Monero** và **tiền mặt/nội tệ** dưới dạng hình thức thanh toán ẩn danh. They also accept Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } Hỗ trợ WireGuard
 
@@ -223,13 +223,13 @@ Mullvad hỗ trợ giao thức WireGuard®. [WireGuard](https://www.wireguard.co
 
 Mullvad [khuyến nghị](https://mullvad.net/en/help/why-wireguard/) sử dụng WireGuard với dịch vụ của họ. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } Hỗ trợ IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad cho phép bạn [truy cập các dịch vụ lưu trữ trên IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), trái ngược với các nhà cung cấp khác chặn kết nối IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Chuyển tiếp cổng từ xa
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đã loại bỏ tùy chọn này vào [tháng năm năm 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Việc thiếu tính năng này có thể tác động tiêu cực đến một số ứng dụng nhất định, đặc biệt là các ứng dụng ngang hàng như torrent client.
 
 #### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
