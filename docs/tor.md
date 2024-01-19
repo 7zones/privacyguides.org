@@ -1,17 +1,17 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
-title: "Tor Network"
+meta_title: "Mạng và trình duyệt Tor: Duyệt web ẩn danh - Privacy Guides"
+title: "Mạng Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Bảo vệ việc duyệt internet của bạn khỏi những con mắt tò mò bằng cách sử dụng mạng Tor, một mạng an toàn vượt qua kiểm duyệt.
 cover: tor.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Tor Browser
+    name: Trình duyệt Tor
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    sameAs: https://vi.wikipedia.org/wiki/Tor
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -25,13 +25,13 @@ schema:
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Mạng **Tor** là một nhóm các máy chủ do tình nguyện viên vận hành cho phép bạn kết nối miễn phí và cải thiện quyền riêng tư cũng như bảo mật của bạn trên Internet. Các cá nhân và tổ chức cũng có thể chia sẻ thông tin qua mạng Tor với các "dịch vụ ẩn .onion" mà không ảnh hưởng đến quyền riêng tư của họ. Vì lưu lượng truy cập Tor khó bị chặn và theo dõi nên Tor là một công cụ vượt qua kiểm duyệt hiệu quả.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Trang chủ }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Dịch vụ Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Tài liệu}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Mã nguồn" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Đóng góp }
 
 Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
@@ -58,10 +58,10 @@ If more complete anonymity is paramount to your situation, you should **only** b
     **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Dịch vụ Onion" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Tài liệu }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Mã nguồn" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Đóng góp }
 
     ??? downloads
 
@@ -89,9 +89,9 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
     [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Tài liệu}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Mã nguồn" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Đóng góp }
 
     ??? downloads
 
@@ -119,9 +119,9 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
     [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Tài liệu}
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Mã nguồn" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Đóng góp }
 
     ??? downloads
 
@@ -141,9 +141,9 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
 
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Tài liệu}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Mã nguồn" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Đóng góp }
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
@@ -153,4 +153,4 @@ Snowflake does not increase your privacy in any way, nor is it used to connect t
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation Tài liệu](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
