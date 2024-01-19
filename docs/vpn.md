@@ -157,11 +157,11 @@ IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đ�
 
 IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Ứng dụng di động
 
-In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+In addition to providing standard OpenVPN configuration files, IVPN has Ứng dụng di động for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Tính năng bổ sung
 
 IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
@@ -235,66 +235,67 @@ Mullvad trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng 
 
 Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Ứng dụng di động
 
 Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Tính năng bổ sung
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad rất minh bạch về việc họ [sở hữu hoặc thuê](https://mullvad.net/en/servers/) các nút nào. Họ sử dụng [ShadowSocks](https://shadowsocks.org/) trong cấu hình ShadowSocks + OpenVPN, giúp họ tăng khả năng chống lại tường lửa sử dụng [phân tích sâu các gói](https://en.wikipedia.org/wiki/Deep_packet_inspection) đang cố gắng chặn VPN. Chẳng hạn như, [Trung Quốc đã phải sử dụng một phương pháp khác để chặn máy chủ ShadowSocks](https://github.com/net4people/bbs/issues/22). Bạn cũng có thể truy cập trang web của Mullvad qua Tor tại 
+ [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
-## Criteria
+## Tiêu chí
 
 !!! danger
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+    Điều quan trọng cần lưu ý là việc sử dụng nhà cung cấp VPN sẽ không khiến bạn ẩn danh nhưng nó sẽ mang lại cho bạn sự riêng tư tốt hơn trong một số trường hợp nhất định. VPN không phải là công cụ cho các hoạt động bất hợp pháp. Đừng ỷ vào chính sách "không ghi nhật ký" (no log).
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Xin lưu ý rằng chúng tôi không liên kết với bất kỳ nhà cung cấp nào mà chúng tôi đề xuất. Điều này cho phép chúng tôi đưa ra các đề xuất hoàn toàn khách quan.** Ngoài các [tiêu chí tiêu chuẩn](about/criteria.md), chúng tôi đã phát triển một bộ yêu cầu rõ ràng đối với bất kỳ nhà cung cấp VPN nào muốn được đề xuất, bao gồm mã hóa mạnh, kiểm tra bảo mật độc lập, công nghệ hiện đại,v.v... Chúng tôi khuyên bạn nên tự làm quen với danh sách này trước khi chọn nhà cung cấp VPN và tiến hành nghiên cứu của riêng mình để đảm bảo nhà cung cấp VPN bạn chọn đáng tin cậy nhất có thể.
 
-### Technology
+### Công nghệ
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+Chúng tôi yêu cầu tất cả các nhà cung cấp VPN được đề xuất của chúng tôi cung cấp các tệp cấu hình OpenVPN để sử dụng trong mọi máy khách. **Nếu** VPN cung cấp ứng dụng khách tùy chỉnh của riêng họ, chúng tôi yêu cầu killswitch để chặn rò rỉ dữ liệu mạng khi bị ngắt kết nối.
 
-**Minimum to Qualify:**
+**Điều kiện tối thiểu:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
-- Killswitch built in to clients.
-- Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- Hỗ trợ các giao thức mạnh như WireGuard & OpenVPN.
+- Killswitch được tích hợp sẵn cho ứng dụng khách.
+- Hỗ trợ đa chặng. Đa chặng rất quan trọng để giữ dữ liệu ở chế độ riêng tư trong trường hợp có một nút bị xâm phạm.
+- Nếu máy khách VPN được cung cấp thì chúng phải là [mã nguồn mở](https://vi.wikipedia.org/wiki/Nguồn_mở), giống như phần mềm VPN mà họ thường tích hợp sẵn trong đó. Chúng tôi tin rằng tính khả dụng của [mã nguồn](https://vi.wikipedia.org/wiki/Mã_nguồn) mang lại sự minh bạch cao hơn về những gì thiết bị của bạn thực sự đang làm.
 
-**Best Case:**
+**Trường hợp tốt nhất:**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [Chuyển tiếp cổng từ xa](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Hỗ trợ WireGuard và OpenVPN.
+- Killswitch với các tùy chọn có thể cấu hình cao (bật/tắt trên một số mạng nhất định, khi khởi động, v.v.)
+- Máy khách VPN dễ sử dụng
+- Hỗ trợ [IPv6](https://vi.wikipedia.org/wiki/IPv6). Chúng tôi hy vọng rằng các máy chủ sẽ cho phép kết nối đến qua IPv6 và cho phép bạn truy cập các dịch vụ được lưu trữ trên địa chỉ IPv6.
+- Khả năng [chuyển tiếp cổng từ xa](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) hỗ trợ tạo kết nối khi sử dụng phần mềm chia sẻ tệp P2P ([Mạng ngang hàng](https://vi.wikipedia.org/wiki/Mạng_ngang_hàng)) hoặc lưu trữ máy chủ (vd: Mumble).
 
-### Privacy
+### Sự riêng tư
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Chúng tôi mong muốn các nhà cung cấp được đề xuất của chúng tôi thu thập càng ít dữ liệu càng tốt. Không thu thập thông tin cá nhân khi đăng ký và chấp nhận các hình thức thanh toán ẩn danh là bắt buộc.
 
-**Minimum to Qualify:**
+**Điều kiện tối thiểu:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [Tiền điện tử ẩn danh](cryptocurrency.md) **hoặc** tùy chọn thanh toán bằng tiền mặt.
+- Không cần thông tin cá nhân để đăng ký: Chỉ cần nhiều nhất là tên người dùng, mật khẩu và email.
 
-**Best Case:**
+**Trường hợp tốt nhất:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (autogenerated username, no email required, etc.).
+- Chấp nhận nhiều [tùy chọn thanh toán ẩn danh](advanced/payments.md).
+- Không thu thập thông tin cá nhân (tên người dùng được tạo tự động, không cần email, v.v.).
 
-### Security
+### Bảo mật
 
 A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
-**Minimum to Qualify:**
+**Điều kiện tối thiểu:**
 
 - Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
 - Forward Secrecy.
 - Published security audits from a reputable third-party firm.
 
-**Best Case:**
+**Trường hợp tốt nhất:**
 
 - Strongest Encryption: RSA-4096.
 - Forward Secrecy.
@@ -305,11 +306,11 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
-**Minimum to Qualify:**
+**Điều kiện tối thiểu:**
 
 - Public-facing leadership or ownership.
 
-**Best Case:**
+**Trường hợp tốt nhất:**
 
 - Public-facing leadership.
 - Frequent transparency reports.
@@ -318,7 +319,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 With the VPN providers we recommend we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**Điều kiện tối thiểu:**
 
 - Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
@@ -330,13 +331,13 @@ Must not have any marketing which is irresponsible:
 - Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
 - Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
 
-**Best Case:**
+**Trường hợp tốt nhất:**
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
 - An accurate comparison to when [Tor](tor.md) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### Tính năng bổ sung
 
 While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
