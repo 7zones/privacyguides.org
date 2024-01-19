@@ -41,9 +41,9 @@ Những nhà cung cấp mà chúng tôi đề xuất đều sử dụng mã hóa
     **Proton VPN** là một đơn vị cạnh tranh mạnh trong lĩnh vực VPN đã đi vào hoạt động từ năm 2016. Proton AG có trụ sở tại Thụy Sĩ và cung cấp những dịch vụ miễn phí có giới hạn cũng như tùy chọn cao cấp nhiều tính năng hơn.
 
     [:octicons-home-16: Trang chủ](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Chính sách bảo mật" }
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Mã nguồn" }
 
     ??? downloads
 
@@ -109,9 +109,9 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
     **IVPN** là một nhà cung cấp VPN cao cấp khác, và họ đã hoạt động từ năm 2009. IVPN có trụ sở tại Gibraltar.
 
     [:octicons-home-16: Trang chủ](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Chính sách bảo mật" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title="Tài liệu"}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Mã nguồn" }
 
     ??? downloads
 
@@ -155,15 +155,15 @@ IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đ�
 
 #### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
-IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC là giao thức hiện đại có khả năng kiểm soát tắc nghẽn tốt hơn và do đó có thể nhanh hơn với độ trễ giảm. Chế độ TCP làm cho dữ liệu của bạn xuất hiện dưới dạng lưu lượng HTTP thông thường.
 
 #### :material-check:{ .pg-green } Ứng dụng di động
 
-In addition to providing standard OpenVPN configuration files, IVPN has Ứng dụng di động for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+Ngoài việc cung cấp các tệp cấu hình OpenVPN tiêu chuẩn, IVPN còn có ứng dụng di động cho [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), và [GitHub](https://github.com/ivpn/android-app/releases) cho phép dễ dàng kết nối đến máy chủ của họ.
 
 #### :material-information-outline:{ .pg-blue } Tính năng bổ sung
 
-IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Ứng dụng của IVPN hỗ trợ xác thực 2 yếu tố (Mullvad thì không). IVPN cũng cung cấp chức năng "[AntiTracker](https://www.ivpn.net/antitracker)", có khả năng chặn các mạng quảng cáo và trình theo dõi từ cấp độ mạng.
 
 ### Mullvad
 
@@ -171,13 +171,13 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
     ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
+    **Mullvad** là một VPN nhanh và rẻ tiền, tập trung chủ yếu vào tính minh bạch và bảo mật đã đi vào hoạt động từ năm **2009**. Mullvad có trụ sở tại Thụy Điển và không có bản dùng thử miễn phí.
 
-    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Chính sách bảo mật" }
+    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title="Tài liệu"}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Mã nguồn" }
 
     ??? downloads
 
@@ -287,7 +287,7 @@ Chúng tôi mong muốn các nhà cung cấp được đề xuất của chúng 
 
 ### Bảo mật
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+VPN sẽ trở nên vô nghĩa nếu nó thậm chí không thể cung cấp mức độ bảo mật thỏa đáng. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
 **Điều kiện tối thiểu:**
 
@@ -297,7 +297,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 **Trường hợp tốt nhất:**
 
-- Strongest Encryption: RSA-4096.
+- Mã hóa mạnh nhất: RSA-4096.
 - Forward Secrecy.
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
