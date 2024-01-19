@@ -1,38 +1,38 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
-title: "Privacy Tools"
+meta_title: "Đề xuất các công cụ, dịch vụ bảo mật tốt nhất và không quảng cáo - Privacy Guides"
+title: "Công cụ bảo mật"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides là trang web minh bạch và đáng tin cậy nhất để tìm kiếm phần mềm, ứng dụng và dịch vụ bảo vệ dữ liệu cá nhân của bạn khỏi các chương trình giám sát hàng loạt và các mối đe dọa internet khác.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Nếu bạn đang tìm kiếm một giải pháp cụ thể cho một vấn đề nào đó thì đây là những công cụ phần cứng và phần mềm mà chúng tôi khuyên dùng thuộc nhiều danh mục khác nhau. Các công cụ bảo mật mà chúng tôi đề xuất chủ yếu được chọn dựa trên các tính năng bảo mật, nhấn mạnh thêm vào các công cụ nguồn mở và phi tập trung. Chúng có thể áp dụng cho nhiều mô hình mối đe dọa khác nhau, từ bảo vệ chống lại các chương trình giám sát hàng loạt toàn cầu, cho đến giảm thiểu các cuộc tấn công nhằm vào các công ty công nghệ lớn. Nhưng chỉ có bạn mới có thể xác định điều gì sẽ hoạt động tốt nhất và phù hợp nhất với nhu cầu của mình.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Nếu bạn muốn được hỗ trợ tìm ra các công cụ bảo mật tốt nhất và các chương trình thay thế cho nhu cầu của mình, hãy bắt đầu thảo luận trên [diễn đàn](https://discuss.privacyguides.net/) hoặc cộng đồng [Matrix](https://matrix.to/#/#privacyguides:matrix.org) của chúng tôi!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Để biết thêm chi tiết về từng dự án, lý do chúng được chọn và các mẹo hoặc thủ thuật bổ sung mà chúng tôi đề xuất, hãy nhấp vào liên kết "Tìm hiểu thêm" trong mỗi phần hoặc nhấp vào chính đề xuất đó để được đưa đến phần cụ thể đó của trang.
 
-## Tor Network
+## Mạng Tor
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Trình duyệt Tor](tor.md#tor-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Tor proxy cho smartphone)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Trình duyệt Onion (Tor cho iOS)](tor.md#onion-browser)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake không tăng cường quyền riêng tư, tuy nhiên nó cho phép bạn dễ dàng đóng góp cho mạng Tor và giúp mọi người trong mạng bị kiểm duyệt đạt được quyền riêng tư tốt hơn.
 
 [Learn more :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## Trình duyệt web trên máy tính
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Trình duyệt Mullvad](desktop-browsers.md#mullvad-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
@@ -40,18 +40,18 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### Tài nguyên bổ sung
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock nguyên bản](desktop-browsers.md#ublock-origin)
 - ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
 
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## Trình duyệt web cho điện thoại
 
 <div class="grid cards" markdown>
 
@@ -62,7 +62,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### Tài nguyên bổ sung
 
 <div class="grid cards annotate" markdown>
 
@@ -72,7 +72,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Service Providers
+## Các nhà cung cấp dịch vụ
 
 ### Cloud Storage
 
