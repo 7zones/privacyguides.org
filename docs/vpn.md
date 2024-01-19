@@ -1,5 +1,5 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
+meta_title: "Đề xuất và so sánh dịch vụ VPN riêng tư, Không tài trợ hay quảng cáo - Privacy Guides"
 title: "Dịch vụ VPN"
 icon: material/vpn
 description: Đây là những dịch vụ VPN tốt nhất để bảo vệ quyền riêng tư và bảo mật trực tuyến của bạn. Find a provider here that isn’t out to spy on you.
@@ -98,7 +98,7 @@ Ngoài việc cung cấp các tệp cấu hình OpenVPN tiêu chuẩn, Proton VP
 
 #### :material-alert-outline:{ .pg-orange } Tính năng Killswitch feature bị hỏng trên máy Mac chạy Intel.
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+Sự cố hệ thống [có thể xảy ra](https://protonvpn.com/support/macos-t2-chip-kill-switch/) trên các máy Mac chạy Intel khi sử dụng VPN killswitch. Nếu bạn muốn sử dụng tính năng này và bạn đang sử dụng máy Mac có chipset Intel, bạn nên cân nhắc sử dụng dịch vụ VPN khác.
 
 ### IVPN
 
@@ -188,7 +188,7 @@ Ngoài việc cung cấp các tệp cấu hình OpenVPN tiêu chuẩn, IVPN còn
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 40 Countries
+#### :material-check:{ .pg-green } 40 Quốc gia
 
 Mullvad có [máy chủ ở 40 quốc gia](https://mullvad.net/servers/).(1) Chọn nhà cung cấp VPN có máy chủ gần bạn nhất để giảm độ trễ của lưu lượng truy cập mạng của bạn. Nguyên nhân của điều này là do tuyến đường đến đích ngắn hơn (ít bước nhảy hơn).
 { .annotate }
@@ -199,15 +199,15 @@ Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (p
 
 #### :material-check:{ .pg-green } Kiểm tra độc lập
 
-Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
+Ứng dụng máy khách VPN của Mullvad đã được Cure53 và Assured AB kiểm tra trong một báo cáo pentest [được công bố tại cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Các nhà nghiên cứu bảo mật đã kết luận:
 
-> Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+> Cure53 và Assured AB hài lòng với kết quả kiểm tra và phần mềm để lại ấn tượng tích cực tổng thể. Với những nỗ lực bảo mật từ đội ngũ cốt lõi của Mullvad VPN, những nhà thử nghiệm không còn nghi ngờ gì về việc dự án đang đi đúng hướng từ quan điểm bảo mật.
 
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+Vào năm 2020, một cuộc kiểm tra thứ hai [đã diễn ra](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) và [báo cáo kiểm tra cuối cùng](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) đã được cung cấp trên trang web của Cure53:
 
-> The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
+> The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] Hệ sinh thái ứng dụng tổng thể được Mullvad sử dụng để lại ấn tượng rõ ràng và có cấu trúc. Cấu trúc tổng thể của ứng dụng giúp bạn dễ dàng tung ra các bản vá và bản sửa lỗi một cách có cấu trúc. Hơn bất cứ điều gì, những gì được Cure53 phát hiện cho thấy tầm quan trọng của việc liên tục kiểm tra và đánh giá lại các vectơ rò rỉ hiện tại để luôn đảm bảo quyền riêng tư của người dùng cuối. Như đã nói, Mullvad đã làm rất tốt việc bảo vệ người dùng cuối khỏi các rò rỉ PII thông thường và các rủi ro liên quan đến quyền riêng tư.
 
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+Vào năm 2021, một đợt kiểm tra cơ sở hạ tầng [đã diễn ra](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) và [báo cáo kiểm tra cuối cùng](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) được cung cấp trên trang web của Cure53. Một báo cáo khác đã được công bố [vào tháng 6 năm 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) và có trên [trang web của Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 #### :material-check:{ .pg-green } Mã nguồn mở cho client
 
@@ -221,7 +221,7 @@ Ngoài việc chấp nhận thẻ tín dụng/thẻ ghi nợ và PayPal, Mullvad
 
 Mullvad hỗ trợ giao thức WireGuard®. [WireGuard](https://www.wireguard.com) [WireGuard](https://www.wireguard.com) là một giao thức mới sử dụng [mật mã học](https://www.wireguard.com/protocol/) tiên tiến nhất. Ngoài ra, WireGuard hướng tới mục tiêu đơn giản hơn và hiệu quả hơn.
 
-Mullvad [khuyến nghị](https://mullvad.net/en/help/why-wireguard/) sử dụng WireGuard với dịch vụ của họ. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Mullvad [khuyến nghị](https://mullvad.net/en/help/why-wireguard/) sử dụng WireGuard với dịch vụ của họ. Đây là giao thức mặc định hoặc duy nhất trên các ứng dụng Android, iOS, macOS và Linux của Mullvad, nhưng trên Windows thì bạn phải [bật thủ công](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad cũng cung cấp trình tạo cấu hình WireGuard để sử dụng với [ứng dụng](https://www.wireguard.com/install/) WireGuard chính thức.
 
 #### :material-check:{ .pg-green } Hỗ trợ IPv6
 
@@ -237,7 +237,7 @@ Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.n
 
 #### :material-check:{ .pg-green } Ứng dụng di động
 
-Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad công bố ứng dụng cho [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) và [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), cả hai đều hỗ trợ giao diện dễ sử dụng thay vì yêu cầu bạn định cấu hình kết nối WireGuard theo cách thủ công. Ứng dụng khách Android cũng có sẵn trên [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Tính năng bổ sung
 
@@ -287,33 +287,33 @@ Chúng tôi mong muốn các nhà cung cấp được đề xuất của chúng 
 
 ### Bảo mật
 
-VPN sẽ trở nên vô nghĩa nếu nó thậm chí không thể cung cấp mức độ bảo mật thỏa đáng. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+VPN sẽ trở nên vô nghĩa nếu nó thậm chí không thể cung cấp mức độ bảo mật thỏa đáng. Chúng tôi yêu cầu tất cả các nhà cung cấp được chúng tôi đề xuất phải tuân thủ các tiêu chuẩn bảo mật hiện tại cho kết nối OpenVPN của họ. Lý tưởng nhất là họ sẽ sử dụng nhiều chương trình mã hóa phù hợp hơn trong tương lai theo mặc định. Chúng tôi cũng yêu cầu một bên thứ ba độc lập kiểm tra tính bảo mật của nhà cung cấp, lý tưởng nhất là theo cách rất toàn diện và lặp lại (hàng năm).
 
 **Điều kiện tối thiểu:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Forward Secrecy.
-- Published security audits from a reputable third-party firm.
+- Chu trình mã hóa mạnh: OpenVPN với xác thực SHA-256; RSA-2048 hoặc chu trình mã hóa bắt tay tốt hơn; Mã hóa dữ liệu bằng AES-256-GCM hoặc AES-256-CBC.
+- Chuyển tiếp bí mật.
+- Kiểm tra bảo mật được công bố từ một công ty bên thứ ba có uy tín.
 
 **Trường hợp tốt nhất:**
 
 - Mã hóa mạnh nhất: RSA-4096.
-- Forward Secrecy.
-- Comprehensive published security audits from a reputable third-party firm.
+- Chuyển tiếp bí mật.
+- Kiểm tra bảo mật toàn diện được công bố từ một công ty thứ ba có uy tín.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 
-### Trust
+### Lòng tin
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Bạn sẽ không tin tưởng giao tài chính của mình cho người giả mạo danh tính, vậy tại sao lại tin tưởng giao dữ liệu internet của bạn cho họ? Chúng tôi yêu cầu các nhà cung cấp được chúng tôi đề xuất phải công khai về chủ sở hữu hoặc lãnh đạo của họ. Chúng tôi cũng muốn thấy các báo cáo minh bạch thường xuyên, đặc biệt là về cách xử lý các yêu cầu của chính phủ.
 
 **Điều kiện tối thiểu:**
 
-- Public-facing leadership or ownership.
+- Công khai người lãnh đạo hoặc chủ sở hữu của họ trước công chúng.
 
 **Trường hợp tốt nhất:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Công khai người lãnh đạo.
+- Báo cáo minh bạch thường xuyên.
 
 ### Marketing
 
@@ -333,10 +333,10 @@ Must not have any marketing which is irresponsible:
 
 **Trường hợp tốt nhất:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+Tiếp thị có trách nhiệm vừa mang tính giáo dục vừa hữu ích cho người tiêu dùng có thể bao gồm:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- So sánh chính xác khi nào nên sử dụng [Tor](tor.md).
+- Trang web của nhà cung cấp VPN khả dụng trên [dịch vụ .onion](https://vi.wikipedia.org/wiki/.onion)
 
 ### Tính năng bổ sung
 
