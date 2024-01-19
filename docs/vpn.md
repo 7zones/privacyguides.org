@@ -96,7 +96,7 @@ Ngoài việc cung cấp các tệp cấu hình OpenVPN tiêu chuẩn, Proton VP
 
 Ứng dụng máy khách của Proton VPN hiện hỗ trợ xác thực 2 yếu tố trên tất cả các nền tảng ngoại trừ Linux. Proton VPN có máy chủ và trung tâm dữ liệu riêng ở Thụy Sĩ, Iceland và Thụy Điển. Họ cung cấp dịch vụ DNS có tính năng chặn những nội dung và phần mềm độc hại đã biết. Ngoài ra, Proton VPN cũng cung cấp máy chủ "Tor" cho phép bạn dễ dàng kết nối với các trang web [onion](https://vi.wikipedia.org/wiki/.onion), những chúng tôi vẫn thực sự khuyên bạn nên sử dụng [trình duyệt Tor chính thức](https://www.torproject.org/) cho mục đích này.
 
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+#### :material-alert-outline:{ .pg-orange } Tính năng Killswitch feature bị hỏng trên máy Mac chạy Intel.
 
 System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
