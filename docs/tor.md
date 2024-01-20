@@ -33,19 +33,19 @@ Mạng **Tor** là một nhóm các máy chủ do tình nguyện viên vận hà
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Mã nguồn" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Đóng góp }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor hoạt động bằng cách định tuyến lưu lượng truy cập internet của bạn qua các máy chủ tình nguyện, thay vì tạo kết nối trực tiếp tới trang web mà bạn đang cố truy cập. Điều này làm lu mờ nơi xuất phát thực sự của lưu lượng truy cập, và không có máy chủ nào trong đường dẫn kết nối có thể nhìn thấy đường dẫn đầy đủ về nơi lưu lượng truy cập đến và đi, nghĩa là ngay cả các máy chủ bạn đang sử dụng để kết nối cũng không thể phá vỡ trạng thái ẩn danh của bạn.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
+[DTổng quan chi tiết về Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-## Connecting to Tor
+## Kết nối với Tor
 
 !!! tip
 
-    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+    Trước khi kết nối với Tor, hãy đảm bảo rằng bạn đã đọc phần [tổng quan](advanced/tor-overview.md) về Tor là gì và cách kết nối với Tor một cách an toàn của chúng tôi. Chúng tôi thường khuyên bạn nên kết nối với Tor thông qua một [nhà cung cấp VPN](vpn.md) đáng tin cậy, nhưng bạn phải làm **đúng cách** để tránh bị giảm tính ẩn danh của mình.
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android.
+Có nhiều cách khác nhau để kết nối với mạng Tor từ thiết bị của bạn, cách được sử dụng phổ biến nhất là **trình duyệt Tor**, một nhánh của Firefox được thiết kế để duyệt ẩn danh cho máy tính để bàn và Android.
 
-Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Có một số ứng dụng tốt hơn một số khác, và một lần nữa việc đưa ra quyết định tùy thuộc vào mô hình mối đe dọa của bạn. Nếu bạn là người dùng Tor thông thường và không lo lắng về việc ISP thu thập bằng chứng chống lại bạn thì việc sử dụng các ứng dụng như [Orbot](#orbot) hoặc ứng dụng trình duyệt di động để truy cập mạng Tor có lẽ là điều ổn. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
