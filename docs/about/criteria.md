@@ -1,27 +1,27 @@
 ---
-title: General Criteria
+title: Tiêu chí chung
 ---
 
-!!! example "Work in Progress"
+!!! example "Đang hoàn thiện"
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+   Trang sau đây đang trong quá trình hoàn thiện và không phản ánh đầy đủ tiêu chí cho các đề xuất của chúng tôi tại thời điểm này. Cuộc thảo luận trước đây về chủ đề này: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Dưới đây là một số điều phải áp dụng cho tất cả nội dung gửi tới Privacy Guides. EMỗi danh mục sẽ có những yêu cầu bổ sung để đưa vào.
 
-## Financial Disclosure
+## Công khai tài chính
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Chúng tôi không kiếm tiền từ việc giới thiệu một số sản phẩm nhất định, chúng tôi không sử dụng liên kết affiliate, và chúng tôi không đưa ra sự cân nhắc đặc biệt cho các nhà tài trợ dự án.
 
-## General Guidelines
+## Hướng dẫn chung
 
-We apply these priorities when considering new recommendations:
+Chúng tôi áp dụng những ưu tiên này khi xem xét các đề xuất mới:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Bảo mật**: Các công cụ phải tuân theo các phương pháp bảo mật tốt nhất nếu có.
+- **Nguồn sẵn dùng**: Các dự án nguồn mở thường được ưu tiên hơn các lựa chọn thay thế độc quyền tương đương.
+- **Đa nền tảng**: Chúng tôi thường ưu tiên các đề xuất đa nền tảng để tránh bị ràng buộc bởi nhà cung cấp.
+- **Phát triển tích cực**: Các công cụ mà chúng tôi đề xuất nên được phát triển tích cực, các dự án không được bảo trì sẽ bị xóa trong hầu hết các trường hợp.
+- **Tính khả dụng**: Hầu hết người dùng máy tính đều có thể truy cập được các công cụ, không cần phải có nền tảng kỹ thuật quá cao.
+- **Có tài liệu**: Các công cụ phải có tài liệu rõ ràng và đầy đủ để sử dụng.
 
 ## Developer Self-Submissions
 
