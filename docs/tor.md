@@ -47,9 +47,9 @@ Có nhiều cách khác nhau để kết nối với mạng Tor từ thiết b�
 
 Có một số ứng dụng tốt hơn một số khác, và một lần nữa việc đưa ra quyết định tùy thuộc vào mô hình mối đe dọa của bạn. Nếu bạn là người dùng Tor thông thường và không lo lắng về việc ISP thu thập bằng chứng chống lại bạn thì việc sử dụng các ứng dụng như [Orbot](#orbot) hoặc ứng dụng trình duyệt di động để truy cập mạng Tor có lẽ là điều ổn. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, thì bạn **chỉ** nên sử dụng trình duyệt Tor cho máy tính, lý tưởng nhất là trong cấu hình [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
-### Tor Browser
+### Trình duyệt Tor
 
 !!! recommendation
 
