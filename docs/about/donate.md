@@ -1,10 +1,10 @@
 ---
-title: Supporting Us
+title: Hỗ trợ chúng tôi
 ---
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Cần rất nhiều [nhân lực](https://github.com/privacyguides/privacyguides.org/graphs/contributors) và [công sức](https://github.com/privacyguides/privacyguides.org/pulse/monthly) để cập nhật thường xuyên Privacy Guides cũng như struyền bá về quyền riêng tư và giám sát hàng loạt. Nếu bạn thích những gì chúng tôi làm, hãy cân nhắc tham gia bằng cách [chỉnh sửa trang web](https://github.com/privacyguides/privacyguides.org) hoặc [đóng góp bản dịch](https://crowdin.com/project/privacyguides).
 
-If you want to support us financially, the most convenient method for us is contributing via Open Collective, a website operated by our fiscal host. Open Collective accepts payments via credit/debit card, PayPal, and bank transfers.
+Nếu bạn muốn hỗ trợ chúng tôi về mặt tài chính, phương pháp thuận tiện nhất cho chúng tôi là đóng góp thông qua Open Collective, một trang web do cơ quan tài chính của chúng tôi điều hành. Open Collective chấp nhận thanh toán qua thẻ tín dụng/thẻ ghi nợ, PayPal và chuyển khoản ngân hàng.
 
 [Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
