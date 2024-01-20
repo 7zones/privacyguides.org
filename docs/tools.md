@@ -1,57 +1,57 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
-title: "Privacy Tools"
+meta_title: "Đề xuất các công cụ, dịch vụ bảo mật tốt nhất và không quảng cáo - Privacy Guides"
+title: "Công cụ bảo mật"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides là trang web minh bạch và đáng tin cậy nhất để tìm kiếm phần mềm, ứng dụng và dịch vụ bảo vệ dữ liệu cá nhân của bạn khỏi các chương trình giám sát hàng loạt và các mối đe dọa internet khác.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Nếu bạn đang tìm kiếm một giải pháp cụ thể cho một vấn đề nào đó thì đây là những công cụ phần cứng và phần mềm mà chúng tôi khuyên dùng thuộc nhiều danh mục khác nhau. Các công cụ bảo mật mà chúng tôi đề xuất chủ yếu được chọn dựa trên các tính năng bảo mật, nhấn mạnh thêm vào các công cụ nguồn mở và phi tập trung. Chúng có thể áp dụng cho nhiều mô hình mối đe dọa khác nhau, từ bảo vệ chống lại các chương trình giám sát hàng loạt toàn cầu, cho đến giảm thiểu các cuộc tấn công nhằm vào các công ty công nghệ lớn. Nhưng chỉ có bạn mới có thể xác định điều gì sẽ hoạt động tốt nhất và phù hợp nhất với nhu cầu của mình.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Nếu bạn muốn được hỗ trợ tìm ra các công cụ bảo mật tốt nhất và các chương trình thay thế cho nhu cầu của mình, hãy bắt đầu thảo luận trên [diễn đàn](https://discuss.privacyguides.net/) hoặc cộng đồng [Matrix](https://matrix.to/#/#privacyguides:matrix.org) của chúng tôi!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Để biết thêm chi tiết về từng dự án, lý do chúng được chọn và các mẹo hoặc thủ thuật bổ sung mà chúng tôi đề xuất, hãy nhấp vào liên kết "Tìm hiểu thêm" trong mỗi phần hoặc nhấp vào chính đề xuất đó để được đưa đến phần cụ thể đó của trang.
 
-## Tor Network
+## Mạng Tor
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Trình duyệt Tor](tor.md#tor-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Tor proxy cho smartphone)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Trình duyệt Onion (Tor cho iOS)](tor.md#onion-browser)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake không tăng cường quyền riêng tư, tuy nhiên nó cho phép bạn dễ dàng đóng góp cho mạng Tor và giúp mọi người trong mạng bị kiểm duyệt đạt được quyền riêng tư tốt hơn.
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## Trình duyệt web trên máy tính
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Trình duyệt Mullvad](desktop-browsers.md#mullvad-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### Tài nguyên bổ sung
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock nguyên bản](desktop-browsers.md#ublock-origin)
 - ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## Trình duyệt web cho điện thoại
 
 <div class="grid cards" markdown>
 
@@ -60,19 +60,19 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### Tài nguyên bổ sung
 
 <div class="grid cards annotate" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard cho iOS](mobile-browsers.md#adguard)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Service Providers
+## Các nhà cung cấp dịch vụ
 
 ### Cloud Storage
 
@@ -83,17 +83,17 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
-#### DNS Providers
+#### Nhà cung cấp DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+Chúng tôi [đề xuất](dns.md#recommended-providers) amột số máy chủ DNS được mã hóa dựa trên nhiều tiêu chí khác nhau, ví dụ như [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) và [Quad9](https://quad9.net/). Chúng tôi khuyên bạn nên đọc các trang về DNS của chúng tôi trước khi chọn nhà cung cấp. Trong nhiều trường hợp, sử dụng một nhà cung cấp DNS thay thế là phương án không được khuyến khích.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Proxy DNS được mã hóa
 
 <div class="grid cards" markdown>
 
@@ -102,18 +102,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Giải pháp tự lưu trữ
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
+- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [Trang chủ AdGuard](dns.md#adguard-home)
 - ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
@@ -126,9 +126,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### Dịch vụ bí danh email
 
 <div class="grid cards" markdown>
 
@@ -137,9 +137,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### Email tự lưu trữ
 
 <div class="grid cards" markdown>
 
@@ -148,11 +148,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### Dịch vụ tài chính
 
-#### Payment Masking Services
+#### Dịch vụ che giấu thanh toán
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### Online Gift Card Marketplaces
 
@@ -171,9 +171,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Quản lý ảnh
 
 <div class="grid cards" markdown>
 
@@ -183,9 +183,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](photo-management.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](photo-management.md)
 
-### Search Engines
+### Công cụ tìm kiếm
 
 <div class="grid cards" markdown>
 
@@ -196,19 +196,19 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### Nhà cung cấp VPN
 
-??? danger "VPNs do not provide anonymity"
+??? danger "VPN không cung cấp tính năng ẩn danh"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    Sử dụng VPN sẽ **không** giúp trình duyệt web của bạn duy trì ở chế độ ẩn danh, cũng như không tăng thêm tính bảo mật cho lưu lượng truy cập không bảo mật (HTTP).
 
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Nếu bạn đang muốn **ẩn danh**, bạn nên sử dụng Tor Browser **thay vì** VPN.
 
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Nếu bạn muốn tăng cường tính **bảo mật**, bạn phải luôn đảm bảo rằng mình đang kết nối với các trang web sử dụng HTTPS. VPN không phải sự thay thế cho các biện pháp bảo mật.
 
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [Tìm hiểu thêm :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -218,11 +218,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## Phần mềm
 
-### Calendar Sync
+### Đồng bộ lịch
 
 <div class="grid cards" markdown>
 
@@ -231,9 +231,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### Tiền điện tử
 
 <div class="grid cards" markdown>
 
@@ -241,7 +241,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Data and Metadata Redaction
 
@@ -255,9 +255,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### Máy khách Email
 
 <div class="grid cards" markdown>
 
@@ -273,15 +273,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](email-clients.md)
 
-### Encryption Software
+### Phần mềm mã hóa
 
 ??? info "Operating System Disk Encryption"
 
     For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Tìm hiểu thêm :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -293,9 +293,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### Máy khách OpenPGP
 
 <div class="grid cards" markdown>
 
@@ -306,9 +306,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### Chia sẻ và đồng bộ hóa tệp
 
 <div class="grid cards" markdown>
 
@@ -320,9 +320,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### Frontend
 
 <div class="grid cards" markdown>
 
@@ -336,9 +336,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### Công cụ xác thực đa yếu tố
 
 <div class="grid cards" markdown>
 
@@ -349,9 +349,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### Công cụ tổng hợp tin tức
 
 <div class="grid cards" markdown>
 
@@ -365,9 +365,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### Notebook
 
 <div class="grid cards" markdown>
 
@@ -379,9 +379,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### Quản lý mật khẩu
 
 <div class="grid cards" markdown>
 
@@ -395,9 +395,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### Công cụ năng suất
 
 <div class="grid cards" markdown>
 
@@ -409,9 +409,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### Giao tiếp real-time
 
 <div class="grid cards" markdown>
 
@@ -423,11 +423,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Operating Systems
+## Hệ điều hành
 
-### Mobile
+### Thiết bị di động
 
 <div class="grid cards" markdown>
 
@@ -436,9 +436,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Ứng dụng Android
 
 <div class="grid cards" markdown>
 
@@ -450,7 +450,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Desktop/PC
 
@@ -468,7 +468,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router Firmware
 
@@ -479,13 +479,13 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Công cụ nâng cao
 
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
-### Device Integrity Verification
+### Xác minh tính toàn vẹn của thiết bị
 
 <div class="grid cards" markdown>
 
@@ -497,4 +497,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](device-integrity.md)
+[Tìm hiểu thêm :material-arrow-right-drop-circle:](device-integrity.md)
