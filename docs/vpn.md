@@ -155,7 +155,7 @@ IVPN trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng đ�
 
 #### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
-IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC là giao thức hiện đại có khả năng kiểm soát tắc nghẽn tốt hơn và do đó có thể nhanh hơn với độ trễ giảm. Chế độ TCP làm cho dữ liệu của bạn xuất hiện dưới dạng lưu lượng HTTP thông thường.
+IVPN có cơ chế làm rối mã sử dụng [v2ray](https://www.v2ray.com/en/index.html) sẽ giúp ích trong trường hợp các giao thức VPN như OpenVPN hoặc Wireguard bị chặn. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC là giao thức hiện đại có khả năng kiểm soát tắc nghẽn tốt hơn và do đó có thể nhanh hơn với độ trễ giảm. Chế độ TCP làm cho dữ liệu của bạn xuất hiện dưới dạng lưu lượng HTTP thông thường.
 
 #### :material-check:{ .pg-green } Ứng dụng di động
 
@@ -233,7 +233,7 @@ Mullvad trước đây từng hỗ trợ chuyển tiếp cổng từ xa, nhưng 
 
 #### :material-check:{ .pg-green } Lẩn tránh kiểm duyệt
 
-Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
+Mullvad có cơ chế làm rối mã sử dụng [Shadowsocks với v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) có thể giúp ích trong trường hợp các giao thức VPN như OpenVPN hoặc Wireguard bị chặn.
 
 #### :material-check:{ .pg-green } Ứng dụng di động
 
@@ -317,13 +317,13 @@ Bạn sẽ không tin tưởng giao tài chính của mình cho người giả m
 
 ### Marketing
 
-With the VPN providers we recommend we like to see responsible marketing.
+Với các nhà cung cấp VPN mà chúng tôi đề xuất, chúng tôi muốn thấy hoạt động tiếp thị có trách nhiệm.
 
 **Điều kiện tối thiểu:**
 
 - Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
-Must not have any marketing which is irresponsible:
+Không được có bất kỳ hoạt động tiếp thị nào thiếu trách nhiệm:
 
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
     - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
@@ -340,4 +340,4 @@ Tiếp thị có trách nhiệm vừa mang tính giáo dục vừa hữu ích ch
 
 ### Tính năng bổ sung
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Mặc dù không có yêu cầu nghiêm ngặt nhưng có một số yếu tố chúng tôi đã xem xét khi xác định nên giới thiệu nhà cung cấp nào. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
