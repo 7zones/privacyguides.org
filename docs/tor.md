@@ -45,9 +45,9 @@ Tor hoạt động bằng cách định tuyến lưu lượng truy cập interne
 
 Có nhiều cách khác nhau để kết nối với mạng Tor từ thiết bị của bạn, cách được sử dụng phổ biến nhất là **trình duyệt Tor**, một nhánh của Firefox được thiết kế để duyệt ẩn danh cho máy tính để bàn và Android.
 
-Có một số ứng dụng tốt hơn một số khác, và một lần nữa việc đưa ra quyết định tùy thuộc vào mô hình mối đe dọa của bạn. Nếu bạn là người dùng Tor thông thường và không lo lắng về việc ISP thu thập bằng chứng chống lại bạn thì việc sử dụng các ứng dụng như [Orbot](#orbot) hoặc ứng dụng trình duyệt di động để truy cập mạng Tor có lẽ là điều ổn. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Có một số ứng dụng tốt hơn một số khác, và một lần nữa việc đưa ra quyết định tùy thuộc vào mô hình mối đe dọa của bạn. Nếu bạn là người dùng Tor thông thường và không lo lắng về việc ISP thu thập bằng chứng chống lại bạn thì việc sử dụng các ứng dụng như [Orbot](#orbot) hoặc ứng dụng trình duyệt di động để truy cập mạng Tor có lẽ là điều ổn. Việc số lượng người sử dụng Tor ngày càng tăng sẽ giúp giảm bớt cái nhìn phiến diện và kì thị đối với Tor, và làm giảm chất lượng của "danh sách người dùng Tor" mà các nhà mạng và chính phủ biên soạn.
 
-Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, thì bạn **chỉ** nên sử dụng trình duyệt Tor cho máy tính, lý tưởng nhất là trong cấu hình [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, thì bạn **chỉ** nên sử dụng trình duyệt Tor cho máy tính, lý tưởng nhất là trong cấu hình [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Tor ít phổ biến với các trình duyệt di động hơn (và cũng dễ để lại dấu vết hơn), và các cấu hình khác cũng không được kiểm tra nghiêm ngặt về việc chống lại sự hủy ẩn danh.
 
 ### Trình duyệt Tor
 
@@ -55,9 +55,9 @@ Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, t
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    **Trình duyệt Tor** là một lựa chọn cho bạn nếu bạn cần ẩn danh, vì nó cung cấp cho bạn quyền truy cập vào mạng Tor và các cầu nối, đồng thời nó bao gồm các cài đặt và tiện ích mở rộng mặc định được tự động định cấu hình theo các cấp độ bảo mật mặc định: *Tiêu chuẩn*, *An toàn hơn* và *An toàn nhất*.
 
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Dịch vụ Onion" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Tài liệu }
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Mã nguồn" }
@@ -73,9 +73,9 @@ Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, t
 
 !!! danger
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    Bạn **không bao giờ** nên cài đặt thêm bất kỳ tiện ích mở rộng bổ sung nào trên Trình duyệt Tor hoặc chỉnh sửa cài đặt `about:config`, bao gồm cả những cài đặt chúng tôi đề xuất cho Firefox. Tiện ích mở rộng cho trình duyệt và cài đặt phi chuẩn sẽ khiến bạn nổi bật hơn so với những người khác trên mạng Tor, do đó khiến cho trình duyệt của bạn dễ dàng [lưu vết (fingerprinting)](https://support.torproject.org/glossary/browser-fingerprinting).
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Trình duyệt Tor được thiết kế để ngăn chặn việc lưu vết (fingerprinting), hoặc nhận dạng bạn dựa trên cấu hình trình duyệt của bạn. Vì vậy, điều bắt buộc là bạn **không** được sửa đổi trình duyệt vượt quá [mức bảo mật](https://tb-manual.torproject.org/security-settings/) mặc định.
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
@@ -87,7 +87,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
     **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
 
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://orbot.app/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Tài liệu}
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Mã nguồn" }
@@ -117,7 +117,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
     **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
 
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://onionbrowser.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Tài liệu}
     [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Mã nguồn" }
@@ -140,7 +140,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
     People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
 
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Tài liệu}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Mã nguồn" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Đóng góp }
