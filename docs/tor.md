@@ -77,7 +77,7 @@ Nếu điều tối quan trọng với bạn là việc ẩn danh hoàn toàn, t
 
 Trình duyệt Tor được thiết kế để ngăn chặn việc lưu vết (fingerprinting), hoặc nhận dạng bạn dựa trên cấu hình trình duyệt của bạn. Vì vậy, điều bắt buộc là bạn **không** được sửa đổi trình duyệt vượt quá [mức bảo mật](https://tb-manual.torproject.org/security-settings/) mặc định.
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+Ngoài việc cài đặt Tor Browser trực tiếp trên máy tính của bạn, còn có các hệ điều hành được thiết kế riêng để kết nối với mạng Tor như [Whonix](desktop.md#whonix) trên [hệ điều hành Qubes](desktop.md#qubes-os), cung cấp khả năng bảo mật và bảo vệ thậm chí còn cao hơn so với Tor Browser tiêu chuẩn.
 
 ### Orbot
 
@@ -85,10 +85,10 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
     ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+    **Orbot** là một Tor VPN miễn phí cho điện thoại thông minh giúp định tuyến lưu lượng truy cập từ bất kỳ ứng dụng nào trên thiết bị của bạn thông qua mạng Tor.
 
     [:octicons-home-16: Trang chủ](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Chính sách bảo mật" }
     [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Tài liệu}
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Mã nguồn" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Đóng góp }
@@ -99,9 +99,9 @@ In addition to installing Tor Browser on your computer directly, there are also 
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Trước đây chúng tôi khuyên bạn nên bật tùy chọn *Isolate Destination Address* (cô lập địa chỉ đích) trong cài đặt Orbot. Mặc dù về mặt lý thuyết, cài đặt này có thể cải thiện quyền riêng tư bằng cách buộc sử dụng một mạch khác cho mỗi địa chỉ IP mà bạn kết nối nhưng nó không mang lại lợi thế thực tế cho hầu hết các ứng dụng (đặc biệt là duyệt web), có thể dẫn đến giảm hiệu suất đáng kể và tăng tải trên mạng Tor. Chúng tôi không còn khuyên bạn nên điều chỉnh cài đặt này từ giá trị mặc định trừ khi bạn biết mình cần phải làm như vậy.[^1]
 
-!!! tip "Tips for Android"
+!!! tip "Mẹo dành cho Android"
 
     Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
@@ -118,7 +118,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
 
     [:octicons-home-16: Trang chủ](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Chính sách bảo mật" }
     [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Tài liệu}
     [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Mã nguồn" }
     [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Đóng góp }
