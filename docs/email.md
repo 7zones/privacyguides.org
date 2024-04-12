@@ -1,15 +1,15 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Đề xuất email riêng tư được mã hóa - Privacy Guides"
+title: "Dịch vụ Email"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Các nhà cung cấp email này cung cấp một nơi tuyệt vời để lưu trữ email của bạn một cách an toàn và nhiều nhà cung cấp cung cấp mã hóa OpenPGP có thể tương tác với các nhà cung cấp khác.
 cover: email.webp
 ---
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+Trên thực tế, email là điều cần thiết để sử dụng bất kỳ dịch vụ trực tuyến nào, tuy nhiên, chúng tôi không khuyến khích sử dụng email cho các cuộc trò chuyện giữa người với người. Thay vì sử dụng email để liên hệ với người khác, hãy cân nhắc sử dụng phương tiện nhắn tin tức thời hỗ trợ bảo mật chuyển tiếp.
 
 [Recommended Instant Messengers](real-time-communication.md){ .md-button }
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+Đối với mọi thứ khác, chúng tôi đề xuất nhiều nhà cung cấp email khác nhau dựa trên mô hình kinh doanh bền vững cũng như các tính năng bảo mật và quyền riêng tư tích hợp.
 
 - [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
@@ -30,9 +30,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 !!! warning
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    Khi sử dụng công nghệ E2EE như OpenPGP, email của bạn sẽ vẫn có một số siêu dữ liệu không được mã hóa trong phần tiêu đề của email, nói chung là bao gồm cả dòng chủ đề! Xem thêm về [siêu dữ liệu email](basics/email-security.md#email-metadata-overview).
 
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP cũng không hỗ trợ Bảo mật chuyển tiếp, có nghĩa là nếu khóa riêng tư của bạn hoặc của người nhận bị đánh cắp, tất cả các tin nhắn được mã hóa trước đó bằng khóa đó sẽ bị lộ. [Làm cách nào để bảo vệ khóa riêng tư của tôi?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
@@ -40,9 +40,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **Proton Mail** là dịch vụ email tập trung vào quyền riêng tư, mã hóa, bảo mật và dễ sử dụng. Đi vào hoạt động từ **2013**, Proton AG có trụ sở tại Genève, Thụy Sĩ. Tài khoản bắt đầu với dung lượng lưu trữ 500 MB đối với gói miễn phí.
 
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
@@ -106,7 +106,7 @@ Proton Mail doesn't offer a digital legacy feature.
 
     **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
 
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://skiff.com/mail){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
@@ -161,7 +161,7 @@ Skiff Mail does not offer a digital legacy feature.
 
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
 
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
 
@@ -223,7 +223,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
     **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
-    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://tuta.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
@@ -310,7 +310,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
     **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
 
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://addy.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
@@ -341,7 +341,7 @@ Notable free features:
 
     **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
@@ -380,7 +380,7 @@ Advanced system administrators may consider setting up their own email server. M
 
     **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
@@ -391,7 +391,7 @@ Advanced system administrators may consider setting up their own email server. M
 
     **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-home-16: Trang chủ](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
