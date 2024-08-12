@@ -1,9 +1,9 @@
 ---
-title: "About Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: "Về Privacy Guides"
+description: Privacy Guides là một trang web vì xã hội, cung cấp các thông tin về việc bảo vệ tính bảo mật và quyền riêng tư cho dữ liệu của bạn.
 schema:
   "@context": https://schema.org
-  "@type": Organization
+  "@type": Tổ chức
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
@@ -18,11 +18,11 @@ schema:
 ---
 ![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy Guides** là một trang web vì xã hội, cung cấp các [thông tin](/kb) về việc bảo vệ tính bảo mật và quyền riêng tư cho dữ liệu của bạn. Sứ mệnh của chúng tôi là thông tin đến cho công chúng những giá trị của quyền riêng tư kỹ thuật số, cũng như sáng kiến của các chính phủ trên toàn cầu nhằm giám sát hoạt động trực tuyến của bạn. Chúng tôi là một tập thể phi lợi nhuận được điều hành hoàn toàn bởi các thành viên và cộng tác viên tình nguyện. Trang web của chúng tôi không có quảng cáo và không liên kết với bất kỳ nhà cung cấp nào được liệt kê.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
-[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
+[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Trang chủ }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Mã nguồn" }
+[:octicons-heart-16:](donate.md){ .card-link title=Đóng góp }
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
