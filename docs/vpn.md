@@ -205,7 +205,7 @@ Chúng tôi cho rằng sẽ tốt hơn cho việc bảo mật khóa cá nhân (p
 
 Vào năm 2020, một cuộc kiểm tra thứ hai [đã diễn ra](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) và [báo cáo kiểm tra cuối cùng](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) đã được cung cấp trên trang web của Cure53:
 
-> The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] Hệ sinh thái ứng dụng tổng thể được Mullvad sử dụng để lại ấn tượng rõ ràng và có cấu trúc. Cấu trúc tổng thể của ứng dụng giúp bạn dễ dàng tung ra các bản vá và bản sửa lỗi một cách có cấu trúc. Hơn bất cứ điều gì, những gì được Cure53 phát hiện cho thấy tầm quan trọng của việc liên tục kiểm tra và đánh giá lại các vectơ rò rỉ hiện tại để luôn đảm bảo quyền riêng tư của người dùng cuối. Như đã nói, Mullvad đã làm rất tốt việc bảo vệ người dùng cuối khỏi các rò rỉ PII thông thường và các rủi ro liên quan đến quyền riêng tư.
+> Kết quả của dự án kéo dài từ tháng 5 đến tháng 6 năm 2020 nhắm vào khu phức hợp Mullvad khá khả quan. [...] Hệ sinh thái ứng dụng tổng thể được Mullvad sử dụng để lại ấn tượng rõ ràng và có cấu trúc. Cấu trúc tổng thể của ứng dụng giúp bạn dễ dàng tung ra các bản vá và bản sửa lỗi một cách có cấu trúc. Hơn bất cứ điều gì, những gì được Cure53 phát hiện cho thấy tầm quan trọng của việc liên tục kiểm tra và đánh giá lại các vectơ rò rỉ hiện tại để luôn đảm bảo quyền riêng tư của người dùng cuối. Như đã nói, Mullvad đã làm rất tốt việc bảo vệ người dùng cuối khỏi các rò rỉ PII thông thường và các rủi ro liên quan đến quyền riêng tư.
 
 Vào năm 2021, một đợt kiểm tra cơ sở hạ tầng [đã diễn ra](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) và [báo cáo kiểm tra cuối cùng](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) được cung cấp trên trang web của Cure53. Một báo cáo khác đã được công bố [vào tháng 6 năm 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) và có trên [trang web của Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
@@ -321,15 +321,15 @@ Với các nhà cung cấp VPN mà chúng tôi đề xuất, chúng tôi muốn 
 
 **Điều kiện tối thiểu:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Phải tự lưu trữ phân tích (tức là không có Google Analytics). Trang web của nhà cung cấp cũng phải tuân thủ [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) đối với những người muốn từ chối.
 
 Không được có bất kỳ hoạt động tiếp thị nào thiếu trách nhiệm:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+- Đảm bảo bảo vệ ẩn danh 100%. Khi ai đó tuyên bố rằng điều gì đó là 100% thì điều đó có nghĩa là không có sự chắc chắn nào về thất bại. Chúng tôi biết mọi người có thể dễ dàng tự hủy ẩn danh theo một số cách, ví dụ:
+    - Sử dụng lại thông tin cá nhân (ví dụ: tài khoản email, bút danh duy nhất, v.v.) mà họ đã truy cập mà không cần phần mềm ẩn danh (Tor, VPN, v.v.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Cho rằng VPN mạch đơn "ẩn danh hơn" Tor - một mạch gồm ba hoặc nhiều bước nhảy thường xuyên thay đổi.
+- Sử dụng ngôn ngữ có trách nhiệm: tức là, có thể nói rằng VPN "bị ngắt kết nối" hoặc "không được kết nối", tuy nhiên, tuyên bố rằng ai đó "bị phơi bày", "dễ bị tổn thương" hoặc "bị xâm phạm" là việc sử dụng ngôn ngữ gây báo động không cần thiết và có thể không chính xác. Ví dụ, người đó có thể chỉ đang sử dụng dịch vụ của một nhà cung cấp VPN khác hoặc sử dụng Tor.
 
 **Trường hợp tốt nhất:**
 
@@ -340,4 +340,4 @@ Tiếp thị có trách nhiệm vừa mang tính giáo dục vừa hữu ích ch
 
 ### Tính năng bổ sung
 
-Mặc dù không có yêu cầu nghiêm ngặt nhưng có một số yếu tố chúng tôi đã xem xét khi xác định nên giới thiệu nhà cung cấp nào. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Mặc dù không có yêu cầu nghiêm ngặt nhưng có một số yếu tố chúng tôi đã xem xét khi xác định nên giới thiệu nhà cung cấp nào. Bao gồm chức năng chặn nội dung, bảo đảm an toàn, kết nối đa điểm, dịch vụ hỗ trợ khách hàng tuyệt vời, số lượng kết nối đồng thời được phép, v.v.
