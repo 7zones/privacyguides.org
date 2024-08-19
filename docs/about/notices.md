@@ -1,18 +1,18 @@
 ---
-title: "Notices and Disclaimers"
+title: "Thông báo và Tuyên bố miễn trừ trách nhiệm"
 ---
 
-## Legal Disclaimer
+## Tuyên bố miễn trừ trách nhiệm pháp lý
 
-Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
+Privacy Guides không phải là một công ty luật. Vì vậy, trang web Privacy Guides cũng như các cộng tác viên không cung cấp tư vấn pháp lý. Tài liệu và các khuyến nghị trên trang web và các hướng dẫn của chúng tôi không cấu thành tư vấn pháp lý, và việc đóng góp cho trang web hoặc giao tiếp với Privacy Guides hay các cộng tác viên khác về trang web của chúng tôi không tạo ra mối quan hệ luật sư-khách hàng.
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+Việc vận hành trang web này, giống như bất kỳ nỗ lực nào của con người, đều liên quan đến sự không chắc chắn và những đánh đổi. Chúng tôi hy vọng trang web này hữu ích, nhưng nó có thể bao gồm những sai sót và không thể giải quyết mọi tình huống. Nếu bạn có bất kỳ câu hỏi nào về tình huống của mình, chúng tôi khuyến khích bạn tự nghiên cứu, tìm kiếm các chuyên gia khác, và tham gia thảo luận với cộng đồng Privacy Guides. Nếu bạn có bất kỳ câu hỏi pháp lý nào, bạn nên tham khảo ý kiến của luật sư riêng trước khi tiếp tục.
 
-Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+Privacy Guides là một dự án mã nguồn mở được đóng góp theo các giấy phép bao gồm các điều khoản nhằm bảo vệ trang web và các cộng tác viên, làm rõ rằng dự án và trang web Privacy Guides được cung cấp "nguyên trạng", không có bảo đảm, và từ chối trách nhiệm pháp lý đối với các thiệt hại phát sinh từ việc sử dụng trang web hoặc bất kỳ khuyến nghị nào trong đó. Privacy Guides không bảo đảm hoặc đưa ra bất kỳ tuyên bố nào liên quan đến tính chính xác, kết quả có thể xảy ra, hoặc độ tin cậy của việc sử dụng các tài liệu trên trang web hoặc liên quan đến các tài liệu đó trên trang web hoặc trên bất kỳ trang web bên thứ ba nào được liên kết trên trang web này.
 
-Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
+Ngoài ra, Privacy Guides không bảo đảm rằng trang web này sẽ luôn có sẵn, hoặc có sẵn mọi lúc.
 
-## Licensing Overview
+## Tổng quan về cấp phép
 
 !!! danger ""
 
@@ -20,7 +20,7 @@ Privacy Guides additionally does not warrant that this website will be constantl
 
 Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+Điều này không bao gồm code của bên thứ ba được nhúng trong kho lưu trữ này hoặc code có ghi chú giấy phép thay thế. Sau đây là những ví dụ đáng chú ý, nhưng danh sách này có thể không bao gồm tất cả:
 
 * [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
 * The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
@@ -33,18 +33,18 @@ We believe that the logos and other images in `assets` obtained from third-party
 
 When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
-## Acceptable Use
+## Sử dụng được chấp nhận
 
-You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
+Bạn không được sử dụng trang web này theo bất kỳ cách nào gây ra hoặc có thể gây ra thiệt hại cho trang web hoặc làm suy giảm khả năng truy cập hoặc tính sẵn có của Privacy Guides, hoặc theo bất kỳ cách nào vi phạm pháp luật, bất hợp pháp, gian lận, gây hại, hoặc liên quan đến bất kỳ mục đích hoặc hoạt động vi phạm pháp luật, bất hợp pháp, gian lận, hoặc gây hại nào.
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
+Bạn không được tiến hành bất kỳ hoạt động thu thập dữ liệu có hệ thống hoặc tự động nào trên hoặc liên quan đến trang web này mà không có sự đồng ý bằng văn bản, bao gồm:
 
-* Excessive Automated Scans
-* Denial of Service Attacks
-* Scraping
-* Data Mining
+* Quét tự động quá mức
+* Tấn công từ chối dịch vụ (DOS)
+* Thu thập dữ liệu (Scraping)
+* Khai thác dữ liệu (Data Mining)
 * 'Framing' (IFrames)
 
 ---
 
-*Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Một phần của thông báo này đã được thông qua tại [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) trên GitHub. Những tài nguyên đó và trang web này được phát hành dưới giấy phép [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
