@@ -1,15 +1,15 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Email Security
+meta_title: "Tại sao Email không phải là lựa chọn tốt nhất cho quyền riêng tư và bảo mật - Privacy Guides"
+title: Bảo mật Email
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Email về cơ bản không an toàn theo nhiều cách và đây là một số lý do khiến nó không phải là lựa chọn hàng đầu của chúng ta cho mục đích liên lạc an toàn.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.
+Email được mặc định là một hình thức liên lạc không an toàn. Bạn có thể cải thiện bảo mật email của mình bằng các công cụ như OpenPGP, công cụ này bổ sung mã hóa đầu cuối (End-to-End Encryption) cho các tin nhắn của bạn, nhưng OpenPGP vẫn có một số hạn chế so với mã hóa trong các ứng dụng nhắn tin khác, và một số dữ liệu email không bao giờ có thể được mã hóa do thiết kế của email.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+Do đó, email tốt nhất nên được sử dụng để nhận các email giao dịch (như thông báo, email xác minh, đặt lại mật khẩu, v.v.) từ các dịch vụ mà bạn đăng ký trực tuyến, chứ không phải để giao tiếp với người khác.
 
-## Email Encryption Overview
+## Tổng quan về mã hóa Email
 
 The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
 
