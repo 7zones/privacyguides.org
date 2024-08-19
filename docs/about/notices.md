@@ -22,10 +22,10 @@ Unless otherwise noted, all **content** on this website is made available under 
 
 Điều này không bao gồm code của bên thứ ba được nhúng trong kho lưu trữ này hoặc code có ghi chú giấy phép thay thế. Sau đây là những ví dụ đáng chú ý, nhưng danh sách này có thể không bao gồm tất cả:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) được cấp phép theo [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* Phông chữ tiêu đề [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) được cấp phép theo [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* Phông chữ [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) được sử dụng cho hầu hết các văn bản trên trang web được cấp phép theo các điều khoản chi tiết [tại đây](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* Phông chữ [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) được sử dụng cho văn bản đơn cách trên trang web được cấp phép theo [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the Creative Commons Attribution-NoDerivatives 4.0 International Public License text. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
